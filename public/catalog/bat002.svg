@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="320" viewBox="0 0 256 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#152238"/>
+    </linearGradient>
+    <filter id="soft">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="256" height="320" fill="url(#bg)"/>
+  <circle cx="210" cy="40" r="48" fill="#e63946" opacity="0.12"/>
+  <circle cx="36" cy="280" r="56" fill="#5e2a7e" opacity="0.1"/>
+  <g filter="url(#soft)">
+    <rect x="88" y="28" width="80" height="22" rx="4" fill="#5e2a7e"/>
+    <rect x="78" y="48" width="100" height="72" rx="10" fill="#c8e6c8"/>
+    <rect x="98" y="72" width="18" height="8" rx="2" fill="#1a1a1a" opacity="0.75"/>
+    <rect x="140" y="72" width="18" height="8" rx="2" fill="#1a1a1a" opacity="0.75"/>
+    <rect x="112" y="96" width="32" height="6" rx="2" fill="#1a1a1a" opacity="0.35"/>
+    <rect x="68" y="124" width="120" height="88" rx="8" fill="#5e2a7e"/>
+    <rect x="84" y="140" width="88" height="36" rx="4" fill="#e63946" opacity="0.85"/>
+    <rect x="58" y="132" width="22" height="56" rx="6" fill="#c8e6c8"/>
+    <rect x="176" y="132" width="22" height="56" rx="6" fill="#c8e6c8"/>
+    <rect x="78" y="214" width="46" height="70" rx="6" fill="#2d5a27"/>
+    <rect x="132" y="214" width="46" height="70" rx="6" fill="#2d5a27"/>
+    <rect x="78" y="276" width="46" height="12" rx="3" fill="#e63946" opacity="0.7"/>
+    <rect x="132" y="276" width="46" height="12" rx="3" fill="#e63946" opacity="0.7"/>
+  </g>
+  <text x="128" y="308" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#7dd3c7" letter-spacing="1.5">BAT002</text>
+</svg>
